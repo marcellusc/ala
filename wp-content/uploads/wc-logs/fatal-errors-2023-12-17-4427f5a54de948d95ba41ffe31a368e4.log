@@ -1,0 +1,13 @@
+2023-12-17T21:35:42+00:00 CRITICAL Uncaught TypeError: get_class(): Argument #1 ($object) must be of type object, bool given in /home/u756016664/domains/weed-planet.org/public_html/wp-content/plugins/wordpress-seo/src/integrations/front-end/feed-improvements.php:147
+Stack trace:
+#0 /home/u756016664/domains/weed-planet.org/public_html/wp-content/plugins/wordpress-seo/src/integrations/front-end/feed-improvements.php(107): Yoast\WP\SEO\Integrations\Front_End\Feed_Improvements->get_url_for_queried_object()
+#1 /home/u756016664/domains/weed-planet.org/public_html/wp-includes/class-wp-hook.php(326): Yoast\WP\SEO\Integrations\Front_End\Feed_Improvements->send_canonical_header()
+#2 /home/u756016664/domains/weed-planet.org/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home/u756016664/domains/weed-planet.org/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/u756016664/domains/weed-planet.org/public_html/wp-includes/functions.php(1632): do_action()
+#5 /home/u756016664/domains/weed-planet.org/public_html/wp-includes/template-loader.php(48): do_feed()
+#6 /home/u756016664/domains/weed-planet.org/public_html/wp-blog-header.php(19): require_once('/home/u75601666...')
+#7 /home/u756016664/domains/weed-planet.org/public_html/index.php(17): require('/home/u75601666...')
+#8 {main}
+  thrown in /home/u756016664/domains/weed-planet.org/public_html/wp-content/plugins/wordpress-seo/src/integrations/front-end/feed-improvements.php on line 147
+
